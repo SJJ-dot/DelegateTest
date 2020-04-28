@@ -20,3 +20,4 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 -keep class com.sjianjun.test.kotlin.delegate.DelegateTest{*;}
+-keep class com.sjianjun.test.kotlin.delegate.MainActivity{*;}
