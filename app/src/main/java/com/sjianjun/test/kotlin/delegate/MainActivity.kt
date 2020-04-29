@@ -11,6 +11,11 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        this::class.java.declaredMethods.forEach {
+            Log.e("DelegateTest", it.toString())
+        }
+
         Log.e("DelegateTest ", delegateTest.toString()+DelegateTest::class.java.name)
         delegateTest = 1
         Log.e("DelegateTest ", delegateTest.toString())

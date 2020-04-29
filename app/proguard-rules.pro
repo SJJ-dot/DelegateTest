@@ -21,3 +21,5 @@
 #-renamesourcefileattribute SourceFile
 -keep class com.sjianjun.test.kotlin.delegate.DelegateTest{*;}
 -keep class com.sjianjun.test.kotlin.delegate.MainActivity{*;}
+-keepclassmembers class com.sjianjun.test.kotlin.delegate.MainActivity{*;}
+-keep class kotlin.reflect.**{*;}
